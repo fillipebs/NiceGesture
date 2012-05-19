@@ -10,4 +10,8 @@ public class MoveGestureActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
     }
+    
+    public int a(){
+    	return 1;
+    }
 }
