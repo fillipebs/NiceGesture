@@ -1220,3 +1220,48 @@ Java Model Exception: Java Model Status [Cannot nest 'Teste/gen' inside 'Teste'.
 !MESSAGE Cannot nest 'Teste/gen' inside 'Teste'. To enable the nesting exclude 'gen/' from 'Teste'
 !SUBENTRY 1 org.eclipse.jdt.core 4 964 2012-06-02 11:59:15.815
 !MESSAGE Cannot nest 'Teste/gen' inside 'Teste'. To enable the nesting exclude 'gen/' from 'Teste'
+!SESSION 2012-06-02 14:22:10.137 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86 -data /home/heynemann/Ageis/NiceGesture
+
+!ENTRY org.eclipse.ui 4 4 2012-06-02 14:22:37.585
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-06-02 14:45:34.395 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2012-06-02 14:46:01.612
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-06-02 15:00:44.818 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2012-06-02 15:01:01.159
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-06-02 15:02:36.918 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2012-06-02 15:03:01.486
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-06-02 15:21:55.629 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2012-06-02 15:22:08.746
+!MESSAGE Invalid preference page path: XML Syntax
