@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+  <!-- style="@android:style/Theme.Translucent" -->
+<TextView android:text="Press Power" android:textColor="@color/droid" android:textSize="46sp" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"></TextView>
+<TextView android:text="to Continue" android:textColor="@color/droid" android:textSize="23sp" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_centerHorizontal="true" android:layout_height="wrap_content" android:layout_below="@id/TextView01"></TextView>
+</RelativeLayout>

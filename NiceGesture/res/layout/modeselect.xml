@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <RadioGroup android:id="@+id/RadioGroup01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<!--
+Not yet implemented
+group is for choosing between the 3 modes
+Basic/Hide Lockscreen/Advanced
+
+<RadioButton android:text="@string/AutoMode" android:id="@+id/RadioButton01" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+<RadioButton android:text="@string/HideLock" android:id="@+id/RadioButton02" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+<RadioButton android:text="@string/Advanced" android:id="@+id/RadioButton03" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+--> 
+</RadioGroup>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="Status" android:key="statusinfo">
+<CheckBoxPreference
+android:key="enabled"
+android:summary="you can also view status and toggle via the homescreen widget"
+android:disableDependentsState="true"
+android:persistent="true"
+/>
+
+<CheckBoxPreference android:key="security" android:title="Security"
+android:summaryOn="@string/sec_on" android:summaryOff="@string/sec_off"
+android:enabled="false" android:shouldDisableView="false"
+android:selectable="false"
+android:widgetLayout="@layout/hiddencheckbox"></CheckBoxPreference>
+<!-- hidden checkbox is just a checkbox root with visibility set invisible
+eventually we should be able to set it to one with an image cue referring to security state -->
+</PreferenceCategory>
+<PreferenceCategory android:title="Mode Select" android:key="modeinfo">
+<ListPreference android:key="mode" android:title="mode"
+                android:entries="@array/mode"  android:entryValues="@array/mode_values"
+				android:dependency="enabled"
+				android:dialogTitle="Choose mode"
+				android:defaultValue="0" android:summary="null"
+				android:persistent="true"/>
+<!-- category does nothing, just a cosmetic divider. 
+useful in this case since I want users to know it is the Mode and that they can change it
+but i need all the text in the pref itself to explain the mode-->
+</PreferenceCategory>
+
+<PreferenceCategory android:title="Options" android:key="options">
+<CheckBoxPreference android:key="slideGuard" android:title="Lock Slider Wake"
+	android:summaryOn="@string/guard_on" android:summaryOff="@string/guard_off"
+	android:persistent="true"/>
+<CheckBoxPreference android:key="FG" android:title="Status Icon"
+	android:summaryOn="@string/fg_on" android:summaryOff="@string/fg_off"
+	android:persistent="true"/>
+	</PreferenceCategory>
+<PreferenceCategory android:title="Info" android:key="helpinfo">
+        <i4nc4mp.myLock.MainDialogPreference
+                android:key="howto" android:title="@string/howto_title" android:src="@drawable/icon"
+                android:dialogTitle="@string/howto_title" android:dialogMessage="@string/HowToFull"
+                android:dialogIcon="@drawable/icon" android:negativeButtonText="@null"/>
+        <i4nc4mp.myLock.MainDialogPreference
+                android:key="problem" android:title="@string/ts_title" android:src="@drawable/icon"
+                android:dialogTitle="@string/ts_title" android:dialogMessage="@string/Troubleshooting"
+                android:dialogIcon="@drawable/icon" android:negativeButtonText="@null" />
+                </PreferenceCategory>
+</PreferenceScreen>
