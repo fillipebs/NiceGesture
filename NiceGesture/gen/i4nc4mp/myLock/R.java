@@ -30,25 +30,28 @@ public final class R {
         public static final int NextButton=0x7f0a000b;
         public static final int PlayToggle=0x7f0a000a;
         public static final int PrevButton=0x7f0a0009;
-        public static final int RadioGroup01=0x7f0a000f;
+        public static final int RadioGroup01=0x7f0a0012;
         public static final int TextView01=0x7f0a0000;
         public static final int TextView02=0x7f0a0001;
-        public static final int activeBox=0x7f0a0011;
+        public static final int activeBox=0x7f0a0014;
         public static final int barpos=0x7f0a0004;
         public static final int batt=0x7f0a000c;
+        public static final int button1=0x7f0a0010;
         public static final int divider=0x7f0a0008;
         public static final int done=0x7f0a0003;
+        public static final int gestureOverlayView1=0x7f0a0011;
         public static final int hourText=0x7f0a000e;
-        public static final int idlesetup=0x7f0a0015;
+        public static final int idlesetup=0x7f0a0018;
         public static final int main=0x7f0a0002;
         public static final int minText=0x7f0a000d;
         public static final int musicButtons=0x7f0a0007;
         public static final int mylockscreen=0x7f0a0006;
-        public static final int preftoggle=0x7f0a0010;
-        public static final int secureBox=0x7f0a0012;
+        public static final int preftoggle=0x7f0a0013;
+        public static final int secureBox=0x7f0a0015;
+        public static final int textfield1=0x7f0a000f;
         public static final int time=0x7f0a0005;
-        public static final int toggleButton=0x7f0a0014;
-        public static final int togglelayout=0x7f0a0013;
+        public static final int toggleButton=0x7f0a0017;
+        public static final int togglelayout=0x7f0a0016;
     }
     public static final class layout {
         public static final int callguard=0x7f030000;
@@ -59,11 +62,12 @@ public final class R {
         public static final int idlesetup=0x7f030005;
         public static final int lockactivity=0x7f030006;
         public static final int lockdown=0x7f030007;
-        public static final int modeselect=0x7f030008;
-        public static final int preftogglebutton=0x7f030009;
-        public static final int settingsactivity=0x7f03000a;
-        public static final int togglelayout=0x7f03000b;
-        public static final int unguard=0x7f03000c;
+        public static final int main=0x7f030008;
+        public static final int modeselect=0x7f030009;
+        public static final int preftogglebutton=0x7f03000a;
+        public static final int settingsactivity=0x7f03000b;
+        public static final int togglelayout=0x7f03000c;
+        public static final int unguard=0x7f03000d;
     }
     public static final class menu {
         public static final int options_menu=0x7f090000;

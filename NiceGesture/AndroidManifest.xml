@@ -124,6 +124,7 @@
 
         <service android:name=".BootHandler"></service>
         <service android:name=".UserPresentService"></service>
+        <activity android:name="ufrj.dcc.agil.NiceGestureActivity"></activity>
     </application>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission
@@ -137,6 +138,5 @@
     
     <uses-permission android:name="i4nc4mp.myLock.permission.toggle"></uses-permission>
     
-    <uses-sdk android:minSdkVersion="5" />
-    <uses-sdk android:targetSdkVersion="7" />
+    <uses-sdk android:minSdkVersion="5" android:targetSdkVersion="7" />
 </manifest> 

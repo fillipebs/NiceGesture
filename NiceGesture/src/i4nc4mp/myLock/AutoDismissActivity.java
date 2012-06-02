@@ -1,5 +1,6 @@
 package i4nc4mp.myLock;
 
+import ufrj.dcc.agil.NiceGestureActivity;
 import android.app.Activity;
 
 import android.content.BroadcastReceiver;
@@ -66,10 +67,8 @@ BroadcastReceiver unlockdone = new BroadcastReceiver() {
 	    	   	finish();
 	    	}
 	    	
-	    	Intent i2 = new Intent();
-	    	i2.setClassName("com.android.calculator2",
-	    	"com.android.calculator2.Calculator");
-	    	startActivity(i2);
+	    	Intent myIntent = new Intent(AutoDismissActivity.this, NiceGestureActivity.class);
+	    	AutoDismissActivity.this.startActivity(myIntent);
 	    }
 };
 
