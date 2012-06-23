@@ -81,8 +81,8 @@ public class NiceGestureActivity extends Activity implements SensorEventListener
 			mLastZ = z;
 			
 			if (deltaX > 0 || deltaY > 0 || deltaZ > 0) {
-				abreAplicativo("com.android.calculator2",
-				 "com.android.calculator2.Calculator");
+				abreAplicativo("com.android.camera",
+				 "com.android.camera.Camera");
 			}
 		}
 		
