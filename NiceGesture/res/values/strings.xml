@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="app_name">myLock Auto Unlock</string>
-<string name="idlelabel">Idle Setup</string>
+<string name="app_name">Nice Gesture</string>
+<string name="idlelabel">Configuração quando ocioso</string>
 
-<string name="enabled">myLock is enabled</string>
-<string name="disabled">myLock is disabled</string>
+<string name="enabled">Nice Gesture habilitado</string>
+<string name="disabled">Nice Gesture desabilitado</string>
 
-<string name="guard_on">Lockscreen shown on slider wake</string>
-<string name="guard_off">Always Auto Unlock</string>
+<string name="guard_on">'Lockscreen' mostrado quando despertar com deslizar</string>
+<string name="guard_off">Sempre auto-destravar</string>
 
-<string name="auto_on">Always Auto Unlock</string>
-<string name="auto_off">Auto unlock ONLY on slider wake</string>
+<string name="auto_on">Sempre auto-destravar</string>
+<string name="auto_off">Auto-destravar SOMENTE quando despertar com deslizar</string>
 
-<string name="fg_on">Notification will be displayed</string>
-<string name="fg_off">Ongoing notification is disabled</string>
+<string name="fg_on">Notificação será exibida</string>
+<string name="fg_off">Notificação em andamento está desativada</string>
 
-<string name="sec_on">ENABLED- The set pattern will be disabled while myLock is active</string>
-<string name="sec_off">DISABLED- Set up a security pattern from system prefs</string>
+<string name="sec_on">HABILITADO- O padrão definido será desativado enquanto Nice Gesture está ativo</string>
+<string name="sec_off">DISABILITADO- Definir um padrão de segurança a partir das preferências do sistema</string>
 
-<string name="basictitle">Auto Unlock</string>
-<string name="basicsummary">You may see the lockscreen visuals when a slower app is restoring.</string>
-<string name="hiddentitle">Hide lockscreen visuals</string>
-<string name="hiddensummary">When a slower app is restoring, a progress message will be displayed.</string>
-<string name="unguardtitle">Advanced</string>
-<string name="unguardsummary">All keys wake- double press any key to unlock</string>
+<string name="basictitle">Auto-destravar</string>
+<string name="basicsummary">Você pode ver os elementos visuais de Nice Gesture quando um aplicativo mais lento estiver restaurando.</string>
+<string name="hiddentitle">Esconder elementos visuais da 'lockscreen'</string>
+<string name="hiddensummary">Quando um aplicativo mais lento estiver restaurando, uma mensagem de progresso será exibida.</string>
+<string name="unguardtitle">Avançado</string>
+<string name="unguardsummary">Despertar com todas os botões- pressione duplamente qualquer botão para destravar</string>
 
-<string name="howto_title">How to use myLock</string>
-<string name="HowToFull">myLock automatically minimizes the lockscreen. By default, the side buttons remain locked down, but waking the phone with the slider, keypad buttons, or power key will auto unlock. Advanced mode enables all keys to wake and any double press to unlock.
-If the phone reboots while myLock is running, it will start back up automatically with your preferred settings. Do not attempt to change the security pattern or create one while myLock is enabled. Always uncheck enabled first. </string>
+<string name="howto_title">Como usar Nice Gesture</string>
+<string name="HowToFull">Nice Gesture automaticamente minimiza a 'lockscreen'. Por padrão, os botões laterais permanecem bloqueados, mas despertar o telefone com o 'slider', botões do teclado, ou botão liga/desliga irá auto desbloquear. Modo avançado habilita todos os botões para despertar e qualquer pressionamento duplo para destravar.
+Se o celular reiniciar enquanto Nice Gesture estiver executando, ele começará um 'back up' automaticamente com suas configurações preferidas. Não tente mudar o padrão de segurança ou criar um enquanto Nice Gesture estiver habilitado. Sempre desselecione 'habilitado' primeiro. </string>
 
-<string name="idlehowto">Each time the phone sleeps, the timer begins. If left asleep for the amount of time set, pattern security is restored, disabling myLock. When you unlock the pattern, myLock restarts itself. You must have a pattern enabled and set myLock to secure mode before turning on idle lock.</string>
+<string name="idlehowto">Cada vez que o celular apaga, o temporizador começa. Se deixado apagado por um tempo determinado, o padrão de segurança é restaurado, desabilitando Nice Gesture. Quando o padrão for destravado, Nice Gesture irá se reiniciar. Deverá haver um padrão habilitado e definir Nice Gesture para o modo seguro antes de ligar a trava de ocioso.</string>
 
-<string name="ts_title">Problem Help</string>
-<string name="Troubleshooting">Please see our faq and troubleshooting pages linked on our site (http://mylockandroid.blogspot.com) first. If you notice an issue that happens consistently, download Log Collector (free from the market) to email us at myLockandroid@gmail.com. Be sure to list the problem symptoms and what other services are running in the Settings->Applications->Running Services screen. I will research the cause of the trouble and code a fix when possible.</string>
+<string name="ts_title">Ajuda com problemas</string>
+<string name="Troubleshooting">Por favor veja nosso 'FAQ' e páginas de solução de problemas nos links do site (http://mylockandroid.blogspot.com) primeiro. Se notar um problema que acontece de forma consistente, faça download do Log Collector (se encontra no Google Play gratuitamente) para então nos mandar um email para myLockandroid@gmail.com. Tenha certeza de listar os sintomas do problema e quais outros serviços estão executando em 'Settings->Applications->Running Services screen'. Nós iremos procurar a causa do problema e corrigi-lo quando possível.</string>
 
-<string name="permlab_toggle">myLock plug-in permission</string>
-<string name="permdesc_toggle">Allows plug-ins to toggle myLock</string>
+<string name="permlab_toggle">Permissões de plug-ins do Nice Gesture</string>
+<string name="permdesc_toggle">Permitir que plug-ins ativem e desativem Nice Gesture</string>
 
-<string name="userlabel">myLock auto unlock</string>
+<string name="userlabel">Nice Gesture</string>
 
 </resources>
