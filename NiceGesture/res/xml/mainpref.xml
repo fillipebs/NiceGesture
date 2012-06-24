@@ -38,12 +38,12 @@ but i need all the text in the pref itself to explain the mode-->
 	</PreferenceCategory>
 <PreferenceCategory android:title="Info" android:key="helpinfo">
         <i4nc4mp.myLock.MainDialogPreference
-                android:key="howto" android:title="@string/howto_title" android:src="@drawable/icon"
+                android:key="howto" android:title="@string/howto_title" android:src="@drawable/icone"
                 android:dialogTitle="@string/howto_title" android:dialogMessage="@string/HowToFull"
-                android:dialogIcon="@drawable/icon" android:negativeButtonText="@null"/>
+                android:dialogIcon="@drawable/icone" android:negativeButtonText="@null"/>
         <i4nc4mp.myLock.MainDialogPreference
-                android:key="problem" android:title="@string/ts_title" android:src="@drawable/icon"
+                android:key="problem" android:title="@string/ts_title" android:src="@drawable/icone"
                 android:dialogTitle="@string/ts_title" android:dialogMessage="@string/Troubleshooting"
-                android:dialogIcon="@drawable/icon" android:negativeButtonText="@null" />
+                android:dialogIcon="@drawable/icone" android:negativeButtonText="@null" />
                 </PreferenceCategory>
 </PreferenceScreen>

@@ -26,7 +26,7 @@ public class BootHandler extends Service {
 		super.onCreate();
 		Log.d(getClass().getSimpleName(),"BootHandler - setting foreground");
 		           
-            int icon = R.drawable.icon;
+            int icon = R.drawable.icone;
             CharSequence tickerText = "myLock";
             
             long when = System.currentTimeMillis();

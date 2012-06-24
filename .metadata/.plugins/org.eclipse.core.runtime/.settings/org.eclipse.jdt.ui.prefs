@@ -1,4 +1,4 @@
-#Sat Jun 02 12:19:05 BRT 2012
+#Sun Jun 24 11:39:13 BRT 2012
 content_assist_proposals_foreground=0,0,0
 spelling_locale_initialized=true
 org.eclipse.jdt.ui.text.templates_migrated=true
@@ -13,7 +13,7 @@ org.eclipse.jdt.ui.javadoclocations.migrated=true
 proposalOrderMigrated=true
 org.eclipse.jdt.ui.formatterprofiles.version=11
 content_assist_proposals_background=255,255,255
-content_assist_number_of_computers=13
+content_assist_number_of_computers=19
 useQuickDiffPrefPage=true
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.jdt.ui.text.code_templates_migrated=true

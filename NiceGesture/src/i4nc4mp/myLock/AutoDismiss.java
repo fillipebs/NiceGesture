@@ -484,7 +484,7 @@ public class AutoDismiss extends MediatorService implements SensorEventListener 
 		// No need to get the mgr, since we aren't manually sending this for FG
 		// mode.
 
-		int icon = R.drawable.icon;
+		int icon = R.drawable.icone;
 		CharSequence tickerText = "myLock is starting up";
 
 		long when = System.currentTimeMillis();

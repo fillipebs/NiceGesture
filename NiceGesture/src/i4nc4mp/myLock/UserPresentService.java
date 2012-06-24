@@ -58,7 +58,7 @@ public class UserPresentService extends Service {
 		super.onCreate();
 		Log.d(getClass().getSimpleName(),"User Present - setting foreground");
 		           
-            int icon = R.drawable.icon;
+            int icon = R.drawable.icone;
             CharSequence tickerText = "myLock";
             
             long when = System.currentTimeMillis();

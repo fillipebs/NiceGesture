@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: C:\\Users\\Fillipe\\Documents\\UFRJ\\Desenvolvimento Ágil\\NiceGesture\\NiceGesture\\src\\i4nc4mp\\myLock\\IsActive.aidl
+ * Original file: C:\\Users\\Fabio\\Desktop\\NiceGesture\\NiceGesture\\src\\i4nc4mp\\myLock\\IsActive.aidl
  */
 package i4nc4mp.myLock;
 public interface IsActive extends android.os.IInterface
