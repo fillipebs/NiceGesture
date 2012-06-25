@@ -485,15 +485,15 @@ public class AutoDismiss extends MediatorService implements SensorEventListener 
 		// mode.
 
 		int icon = R.drawable.icone;
-		CharSequence tickerText = "myLock is starting up";
+		CharSequence tickerText = "Nice Gesture iniciando";
 
 		long when = System.currentTimeMillis();
 
 		Notification notification = new Notification(icon, tickerText, when);
 
 		Context context = getApplicationContext();
-		CharSequence contentTitle = "myLock - click to open settings";
-		CharSequence contentText = "lockscreen is disabled";
+		CharSequence contentTitle = "Nice Gesture - clique para abrir as configurações";
+		CharSequence contentText = "lockscreen desabilitada";
 
 		Intent notificationIntent = new Intent(this, SettingsActivity.class);
 		PendingIntent contentIntent = PendingIntent.getActivity(this, 0,

@@ -39,13 +39,13 @@ Log.v("Toggler","Starting");
 		if (target && !active) {
 			ManageMediator.startService(getApplicationContext());
 			ManageMediator.updateEnablePref(true, getApplicationContext());
-    		Toast.makeText(Toggler.this, "myLock is now enabled", Toast.LENGTH_SHORT).show();
+    		Toast.makeText(Toggler.this, "Nice Gesture habilitado", Toast.LENGTH_SHORT).show();
     		
 		}//stop if we've been told to stop and did already exist
 		else if (active && !target) {
 				
 				ManageMediator.stopService(getApplicationContext());
-				Toast.makeText(Toggler.this, "myLock is now disabled", Toast.LENGTH_SHORT).show();
+				Toast.makeText(Toggler.this, "Nice Gesture desabilitado", Toast.LENGTH_SHORT).show();
 				
 				ManageMediator.updateEnablePref(false, getApplicationContext());
 		}//log the request - locale condition may send a desired state that already exists

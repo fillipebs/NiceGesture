@@ -27,14 +27,14 @@ public class BootHandler extends Service {
 		Log.d(getClass().getSimpleName(),"BootHandler - setting foreground");
 		           
             int icon = R.drawable.icone;
-            CharSequence tickerText = "myLock";
+            CharSequence tickerText = "Nice Gesture";
             
             long when = System.currentTimeMillis();
 
             Notification notification = new Notification(icon, tickerText, when);
             
             Context context = getApplicationContext();
-            CharSequence contentTitle = "myLock";
+            CharSequence contentTitle = "Nice Gesture";
             CharSequence contentText = "initializing";
 
             Intent notificationIntent = new Intent(this, SettingsActivity.class);

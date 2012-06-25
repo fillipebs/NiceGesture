@@ -6,5 +6,5 @@
   >
   <!-- style="@android:style/Theme"-->
   
-<TextView android:text="myLock - press back to unlock" android:id="@+id/TextView01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center"></TextView>
+<TextView android:text="NiceGesture - pressione voltar para destravar" android:id="@+id/TextView01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center"></TextView>
 </LinearLayout>

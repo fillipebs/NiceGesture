@@ -16,7 +16,7 @@
     <application android:icon="@drawable/icone" android:label="@string/app_name">
         
         <activity android:name=".MainPreferenceActivity"
-                  android:label="myLock Prefs"
+                  android:label="Nice Gesture"
                   android:launchMode="singleInstance"
                   android:theme="@android:style/Theme">
             <intent-filter>

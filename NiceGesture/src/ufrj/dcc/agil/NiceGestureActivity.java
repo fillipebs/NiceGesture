@@ -24,7 +24,7 @@ public class NiceGestureActivity extends Activity implements SensorEventListener
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		
-		 final Button button = (Button) findViewById(R.id.button1);
+		 final Button button = (Button) findViewById(R.id.Button01);
 		 button.setOnClickListener(new View.OnClickListener() {
 			 public void onClick(View v) {
 			 abreAplicativo("com.android.calculator2",
