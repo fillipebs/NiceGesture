@@ -8,6 +8,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -27,11 +28,54 @@ public class NiceGestureActivity extends Activity implements SensorEventListener
 		 final Button button = (Button) findViewById(R.id.Button01);
 		 button.setOnClickListener(new View.OnClickListener() {
 			 public void onClick(View v) {
-			 abreAplicativo("com.android.calculator2",
-			 "com.android.calculator2.Calculator");
-			
+				 abreAplicativo("com.android.calculator2",
+				 "com.android.calculator2.Calculator");
 			 }
 		 });
+		 
+		 final Button button2 = (Button) findViewById(R.id.Button02);
+		 button2.setOnClickListener(new View.OnClickListener() {
+			 public void onClick(View v) {
+				 Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                startActivity(cameraIntent);
+			 }
+		 });
+		 
+		 final Button button3 = (Button) findViewById(R.id.Button03);
+		 button3.setOnClickListener(new View.OnClickListener() {
+			 public void onClick(View v) {
+				 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
+				 startActivity(browserIntent);
+			 }
+		 });
+		 
+		 final Button button4 = (Button) findViewById(R.id.Button04);
+		 button4.setOnClickListener(new View.OnClickListener() {
+			 public void onClick(View v) {
+				 Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
+				 emailIntent.setType("plain/text");
+				 startActivity(emailIntent);
+			 }
+		 });
+		 
+		 final Button button5 = (Button) findViewById(R.id.Button05);
+		 button5.setOnClickListener(new View.OnClickListener() {
+			 public void onClick(View v) {
+				 Intent fbIntent = new Intent("android.intent.category.LAUNCHER");
+				 fbIntent.setClassName("com.facebook.katana", "com.facebook.katana.LoginActivity");
+				 startActivity(fbIntent);
+			 }
+		 });
+		 
+		 final Button button6 = (Button) findViewById(R.id.Button06);
+		 button6.setOnClickListener(new View.OnClickListener() {
+			 public void onClick(View v) {
+				 Intent sendIntent = new Intent(Intent.ACTION_VIEW);         
+				 sendIntent.setData(Uri.parse("sms:"));
+				 startActivity(sendIntent);
+			 }
+		 });
+
 		 
 		 mInitialized = false;
 		 mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
@@ -81,16 +125,16 @@ public class NiceGestureActivity extends Activity implements SensorEventListener
 			mLastZ = z;
 			
 			if (deltaX > 0) {
-				abreAplicativo("com.android.camera",
-				 "com.android.camera.Camera");
+				Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                startActivity(cameraIntent);
 			}
 			else if (deltaY > 0) {
 				abreAplicativo("com.android.calculator2",
 				 "com.android.calculator2.Calculator");
 			}
 			else if (deltaZ > 0) {
-				abreAplicativo("com.android.browser",
-				 "com.android.browser.Browser");
+				Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
+				startActivity(browserIntent);
 			}
 		}
 		

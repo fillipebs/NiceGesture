@@ -40,5 +40,10 @@ Se o celular reiniciar enquanto Nice Gesture estiver executando, ele começará 
 <string name="userlabel">Nice Gesture</string>
 
 <string name="textButton01">Calculadora</string>
+<string name="textButton02">Câmera</string>
+<string name="textButton03">Browser</string>
+<string name="textButton04">Gmail</string>
+<string name="textButton05">Facebook</string>
+<string name="textButton06">Messages</string>
 
 </resources>

@@ -33,7 +33,7 @@
                      android:layout_height="wrap_content"
                      android:layout_centerHorizontal="true"
                      android:layout_centerVertical="true"
-                     android:text="Button" />
+                     android:text="@string/textButton02" />
 
                  <Button
                      android:id="@+id/Button03"
@@ -42,7 +42,7 @@
                      android:layout_alignBaseline="@+id/Button02"
                      android:layout_alignBottom="@+id/Button02"
                      android:layout_alignParentRight="true"
-                     android:text="Button" />
+                     android:text="@string/textButton03" />
 
             </RelativeLayout>
 
@@ -63,7 +63,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
-                    android:text="Button" />
+                    android:text="@string/textButton04" />
                 
                 
                 <Button
@@ -73,7 +73,7 @@
                     android:layout_alignBaseline="@+id/Button06"
                     android:layout_alignBottom="@+id/Button06"
                     android:layout_centerHorizontal="true"
-                    android:text="Button" />
+                    android:text="@string/textButton05" />
 
                 <Button
                     android:id="@+id/Button06"
@@ -82,7 +82,7 @@
                     android:layout_alignBaseline="@+id/Button04"
                     android:layout_alignBottom="@+id/Button04"
                     android:layout_alignParentRight="true"
-                    android:text="Button" />
+                    android:text="@string/textButton06" />
 
     
 
