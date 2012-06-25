@@ -1,2 +1,6 @@
-.metadata*
-bin
+.metadata/
+bin/
+NiceGesture/bin/
+NiceGestureTest/bin/
+RemoteSystemsTempFiles/
+.project
